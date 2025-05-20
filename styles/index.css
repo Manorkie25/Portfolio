@@ -6,7 +6,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 20px;
+    height: 50px;
     position: fixed;
     right: 0;
     left: 0;
@@ -22,7 +22,7 @@ nav {
 .hero {
     background-image: url(../Images/asset\ 3.jpeg);
     height: 100vh;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     flex-direction: row ;
     justify-content:space-between;
@@ -53,4 +53,24 @@ nav {
     color:white;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px; /* Adjust the space between buttons as needed */
+    margin-top: 30px;
+    border-radius: 1%;
+    justify-content: flex-start; /* Keep buttons together at the start */
+    border-color: black;
+    /* background-color: blue; */
+}
 
+buttons button,
+.buttons a {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none; /* For <a> tags */
+    cursor: pointer;
+}
